@@ -1,0 +1,24 @@
+>>> sno=int(input())
+16
+>>> sname=input()
+teju
+>>> sgroup=input()
+mccs
+>>> sgender=input()
+female
+>>> sphno=int(input())
+96903632
+>>> saddress=input()
+tuni
+>>> print('sno:',sno)
+sno: 16
+>>> print('sname',sname)
+sname teju
+>>> print('sgroup:',sgroup)
+sgroup: mccs
+>>> print('saddress:',saddress)
+saddress: tuni
+>>> print('sphno:',sphno)
+sphno: 96903632
+>>> print('sgender:',sgender)
+sgender: female
