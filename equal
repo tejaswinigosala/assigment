@@ -1,0 +1,9 @@
+>>> a=22
+>>> b=22
+>>> if a==b:
+...    print('two numbers are equal')
+... else:
+...     print('two numbers are not equal')
+...
+two numbers are equal
+>>>
