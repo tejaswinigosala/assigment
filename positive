@@ -1,0 +1,8 @@
+>>> a=3
+>>> if a>0:
+...    print(a,'is positive')
+... else:
+...     print(b,'is negative')
+...
+3 is positive
+>>>
