@@ -1,0 +1,30 @@
+>>> empo=int(input())
+12
+>>> empname=input()
+tejaswini
+>>> empdesign=input()
+architecture
+>>> basicsalary=10000
+>>> da=1000
+>>> ta=500
+>>> hra=2000
+>>> netsalary=basicsalary+da+ta+hra
+>>> print('netsalary',netsalary)
+netsalary 13500
+>>> if netsalary>100000:
+...   tax=netsalary*10/100
+...
+>>> if netsalary>50000:
+...   tax=netsalary*7/100
+...
+>>> if netsalary>40000:
+...   tax=netsalary*4/100
+...
+>>> if netsalary>20000:
+...    tax=netsalary*2/100
+...
+>>> if netsalary>20000:
+...   tax=10
+...
+>>> print('tax',tax)
+tax 0
