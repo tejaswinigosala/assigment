@@ -1,0 +1,11 @@
+units=42
+>>> charge=0.32
+>>> if units<=120:
+...       charge=units*5.45
+... elif units<=240:
+...      charge=units*7.5
+... elif units<500:
+...      charge=units*8
+...
+>>> print('electricity bill',charge)
+electricity bill 228.9
