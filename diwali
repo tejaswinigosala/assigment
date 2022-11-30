@@ -1,0 +1,43 @@
+>>> coupon=input()
+diwali
+>>> if coupon=='diwali' and bill>=5000:
+...  discount=bill*10/100
+>>> if coupon=='diwali' and bill>=3000:
+...  discount=bill*6/100
+...
+>>> if coupon=='diwali' and bill>=1000:
+...  discount=bill*5/100
+...
+>>> if coupon=='diwali' and bill<1000:
+...  discount=0
+...
+>>> if coupon=='chrimas' and bill>=3000:
+...  discount=bill*20/100
+...
+>>> if coupon=='chrimas' and bill>=2000:
+...  discount=bill*10/100
+...
+>>> if coupon=='chrimas' and bill>=1000:
+...  discount=bill*5/100
+...
+>>> if coupon=='chrimas' and bill<=1000:
+...  discount=0
+...
+>>> print('discount',discount)
+discount 0
+>>> bill=tax-discount
+>>> print('bill',bill)
+bill 920.0
+>>> print('customerphno:',cphno)
+customerphno: 9381707607
+>>> print('customername',cname)
+customername tejaswini
+>>> print('customer address:',address)
+customer address: tuni
+>>> print('tax is',tax)
+tax is 920.0
+>>> print('bill is',bill)
+bill is 800
+>>> bill=tax-discount
+>>> print('bill',bill)
+bill 920.0
