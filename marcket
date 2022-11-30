@@ -1,0 +1,45 @@
+>>> potatoes=50
+>>> tomatoes=50
+>>> onion=50
+>>> brinjal=50
+>>> paneer=50
+>>> cphno=int(input())
+9381707607
+>>> cname=input()
+tejaswini
+>>> address=input()
+tuni
+>>> potatoesquantity=5
+>>> tomatoesquantity=4
+>>> onionsquantity=2
+>>> brinjalquantity=4
+>>> paneerquantity=1
+>>> bill=(potatoes* potatoesquantity)+(tomatoes*tomatoesquantity)+(onion*onionsquantity)+(brinjal* brinjalquantity)+(paneer*paneerquantity)
+>>> print('bill',bill)
+bill 800
+>>> if bill>3000:
+...  tax=bill*5/100
+>>> if bill>2000:
+...  tax=bill*7/100
+>>> if bill>1000:
+...  tax=bill*10/100
+>>> if bill>500:
+...  tax=bill*15/100
+>>> if bill<500:
+...  tax=bill+100
+...
+>>> tax=tax+bill
+>>> print('tax',tax)
+tax 920.0
+>>> print('cphno')
+cphno
+>>> print('customerphno:',cphno)
+customerphno: 9381707607
+>>> print('customername',cname)
+customername tejaswini
+>>> print('customer address:',address)
+customer address: tuni
+>>> print('tax is',tax)
+tax is 920.0
+>>> print('bill is',bill)
+bill is 800
